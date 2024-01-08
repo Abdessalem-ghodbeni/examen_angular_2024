@@ -1,0 +1,68 @@
+{
+  "annonce": [
+    {
+      "titre": "Appartement spacieux à louer",
+      "description": "Bel appartement de 3 chambres avec vue sur la ville. Idéalement situé à proximité des transports en commun et des commerces.",
+      "position": "Centre-ville",
+      "etat": "Annulée"
+    },
+    {
+      "titre": "Voiture d'occasion à vendre",
+      "description": "Voiture familiale en excellent état. Faible kilométrage, entretien régulier effectué. Modèle récent avec de nombreuses fonctionnalités.",
+      "position": "Ville ABC",
+      "etat": "Confirmée"
+    },{
+      "titre": "Offre d'emploi : Développeur Web",
+      "description": "Nous recherchons un développeur Web expérimenté pour rejoindre notre équipe. Connaissances requises en HTML, CSS, JavaScript et frameworks populaires.",
+      "position": "Entreprise XYZ",
+      "etat": "En attente"
+    },
+    {
+      "titre": "Événement annulé : Concert en plein air",
+      "description": "Malheureusement, en raison des conditions météorologiques défavorables, le concert en plein air prévu pour ce soir est annulé. Nous nous excusons pour les désagréments causés.",
+      "position": "Parc central",
+      "etat": "Annulée"
+    },
+    {
+      "titre": "Réservation confirmée : Hôtel de luxe",
+      "description": "Félicitations ! Votre réservation pour un séjour à l'hôtel de luxe a été confirmée. Profitez de nos installations haut de gamme et d'un service exceptionnel.",
+      "position": "Destination de vacances",
+      "etat": "Confirmée"
+    },
+    {
+      "titre": "Demande en attente : Location de maison",
+      "description": "Nous avons reçu votre demande de location pour une maison dans notre agence immobilière. Notre équipe examine actuellement votre demande et vous fournira bientôt une réponse.",
+      "position": "Agence immobilière XYZ",
+      "etat": "En attente"
+    },{
+      "titre": "Formation en ligne : Marketing numérique",
+      "description": "Inscrivez-vous dès maintenant à notre formation en ligne sur le marketing numérique. Apprenez les meilleures pratiques pour développer votre présence en ligne et augmenter vos ventes.",
+      "position": "Plateforme en ligne",
+      "etat": "En attente"
+    },{
+      "titre": "Projet de construction : Résidence de luxe",
+      "description": "Nous lançons un projet de construction de résidences de luxe. Des maisons modernes avec des finitions haut de gamme et une vue panoramique sur la mer. Réservez votre place dès maintenant !",
+      "position": "Station balnéaire",
+      "etat": "En attente"
+    },
+    {
+      "titre": "Conférence annuelle : Technologies émergentes",
+      "description": "Notre conférence annuelle sur les technologies émergentes aura lieu le mois prochain. Rejoignez-nous pour explorer les dernières tendances technologiques et les opportunités de collaboration.",
+      "position": "Centre des congrès",
+      "etat": "Confirmée"
+    },
+    {
+      "titre": "Baisse de prix : Appartement spacieux",
+      "description": "Nous avons réduit le prix de notre appartement spacieux de 20 %. Ne manquez pas cette offre exceptionnelle. Contactez-nous dès maintenant pour plus d'informations.",
+      "position": "Quartier résidentiel",
+      "etat": "En attente"
+    }
+
+  ],
+  "estimation": [
+ 
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

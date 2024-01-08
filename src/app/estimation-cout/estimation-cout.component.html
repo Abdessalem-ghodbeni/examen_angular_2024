@@ -1,0 +1,47 @@
+<div class="container custumer_container">
+    <div class="card w-75">
+        <div class="card-header text-center">
+            Pour estimer le cout de votre annonce veuillez remplir la position souhaitée de votre annonce (haut/bas) et
+            le nombre de caractéres de la description
+        </div>
+        <div class="card-body ">
+            <form [formGroup]="estimationForm" (ngSubmit)="sendEstimation()">
+                <div class="mb-3">
+                    <label for="">Position :</label>
+                    <select class="form-select" aria-label="Default select example" formControlName="position">
+                        <option *ngFor="let option of liste_position" [value]="option">{{option}}</option>
+
+                    </select>
+                    <span class="text-danger "
+                        *ngIf="estimationForm?.get('position')?.hasError('required') && estimationForm?.get('position')?.touched">La
+                        position est obligatoire </span>
+
+                </div>
+
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">nombre de caractéres : </label>
+                    <input class="form-control" id="exampleFormControlTextarea1" rows="3" type="number"
+                        formControlName="nb_caractere" />
+
+                    <div class="text-danger"
+                        *ngIf="estimationForm?.get('nb_caractere')?.hasError('required') && estimationForm?.get('nb_caractere')?.touched">
+                        La description est required.
+                    </div>
+                    <div class="text-danger"
+                        *ngIf="estimationForm?.get('nb_caractere')?.hasError('max')&& estimationForm.get('nb_caractere')?.touched">
+                        La description ne doit pas dépasser 60 caractères.
+                    </div>
+
+
+                </div>
+                <button class="btn btn-outline-primary" type="submit">Estimer </button>
+                <div class="container mt-3" *ngIf="showMe">
+                    <h3>Le cout de votre article est {{cout}}</h3>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</div>

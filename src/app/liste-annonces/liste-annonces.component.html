@@ -1,0 +1,14 @@
+<div class="container  mt-5">
+    <div class="card my-2 p-2" *ngFor="let annonce of liste_annonces"
+        [ngClass]="{'bg_annonce_confirmed':annonce.etat==='Confirmée','bg_annonce_en_attente':annonce.etat=='En attente'}">
+
+        <h3 class="my-2"> {{annonce.titre}}</h3>
+        <p class="mb-2">{{annonce.description}}</p>
+        <p class="mb-2"> {{annonce.position}}</p>
+
+
+    </div>
+
+
+
+</div>
